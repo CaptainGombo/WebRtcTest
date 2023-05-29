@@ -142,7 +142,7 @@ function initialize() {
      * WebRTC WebRTC peerconnection object에 스트림을 추가
      * peerconnection에 스트림을 추가하면 연결된 피어 에서 addstream 이벤트가 트리거
      */
-    //   peerConnection.addStream(stream);
+      peerConnection.addStream(stream);
 
     /**
      * remote peer 에서 listener를 통해 스트림을 수신
